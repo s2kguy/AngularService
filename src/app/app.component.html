@@ -1,0 +1,29 @@
+<!--START-->
+<h2>The App begins in the Host/Join Screen</h2>
+<app-join-or-host></app-join-or-host>
+
+<!--USER SPLITS: SIGNLE HOST AND MULTIPLE USERS-->
+<h2>Based on User interaction, we result in a Single Host and Multiple Players</h2>
+<h4>HOST PATH</h4>
+<app-host-screen></app-host-screen>
+<app-waiting-for-players-screen></app-waiting-for-players-screen>
+<app-select-image-screen></app-select-image-screen>
+<app-crop-image-screen></app-crop-image-screen>
+<app-player-guess-screen></app-player-guess-screen>
+<p>The host will judge the Player guesses, and will either confirm or reject a Player's guess.</p>
+<ul>
+  <li>CONFIRM: Player's score is increased.</li>
+  <li>REJECT: Player's score remains the same</li>
+</ul>
+<h4>PLAYER PATH</h4>
+<app-join-screen></app-join-screen>
+<app-waiting-for-host-screen></app-waiting-for-host-screen>
+<app-submit-guess-screen></app-submit-guess-screen>
+
+<h2>After the HOST judges the Player answers the image will either be revieled or the players will have to guess again</h2>
+<app-reveal-screen></app-reveal-screen>
+
+
+<app-summary-screen></app-summary-screen>
+
+
